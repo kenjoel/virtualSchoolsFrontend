@@ -1,9 +1,19 @@
-body,
-html {
+
+
+html,
+body {
     height: 100%;
 }
+<<<<<<< HEAD
 
 /* The hero image */
+=======
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+>>>>>>> 3662d7618131780df76a3ab50a2676d30c80935c
 .hero-image {
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1513258496099-48168024aec0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
