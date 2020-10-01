@@ -13,6 +13,7 @@ import { MatIconModule } from '@angular/material/icon'
 import { HomeComponent } from './home/home.component'
 import { AboutComponent } from './about/about.component'
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { ProgramsComponent } from './programs/programs.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { AboutusComponent } from './aboutus/aboutus.component';
     HomeComponent,
     AboutComponent,
     AboutusComponent,
+    ProgramsComponent,
 
   ],
   imports: [
