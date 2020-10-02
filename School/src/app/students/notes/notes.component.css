@@ -1,0 +1,22 @@
+.notes{
+    text-align: center;
+    background-image: url(../../../assets/notes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    color: aliceblue;
+
+}
+.form-group{
+    padding-left: 320px;
+}
+.form-control{
+    width: 720px;
+}
+.container{
+    background-color: rgba(131, 99, 161, 0.521);
+    text-align: center;
+    color: black;
+    padding: 40px;
+    font-size: x-large;
+}

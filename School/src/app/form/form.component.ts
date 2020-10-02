@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ComsumptionService } from "../comsumption.service";
+import { School } from "../school";
 
 @Component({
   selector: 'app-form',
@@ -7,7 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormComponent implements OnInit {
 
-  constructor() { }
+  school = School[] = []
+ 
+  
+  // submittedForm(){
+  //   this.service.postSchool()
+  // }
+
+  constructor(private service: ComsumptionService) { }
 
   ngOnInit(): void {
   }

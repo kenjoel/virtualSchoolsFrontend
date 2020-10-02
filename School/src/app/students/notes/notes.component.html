@@ -1,0 +1,30 @@
+<div class="notes">
+    <h1>KEEP YOUR NOTES SAFE</h1>
+
+    <div  class="form-group">
+        <label for=""></label><br>
+        <input class="form-control" type="text" name="studentname" placeholder="Student Name">
+    </div>
+
+    <div  class="form-group">
+        <label for=""></label><br>
+        <input class="form-control" type="text" name="studentclass" placeholder="Class">
+    </div>
+
+    <div class="text-area">
+        <label >Notes</label><br>
+        <textarea name="studentnotes" id="notes" cols="90" rows="10"></textarea><br>
+        <button class="btn btn-outline" type="submit" style="background-color: blueviolet;">Save notes</button><br><br>
+
+        <button class="btn btn-outline" type="submit" style="background-color: blueviolet;" routerLink="/students">Go back</button>
+
+    </div>
+
+</div>
+
+<div class="container">
+    <div *ngFor='let nt of notes'>
+        <app-notesdetails [notes]='nt'></app-notesdetails>
+    </div>
+
+</div>
