@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "School"
+  "defaultProject": "School",
+  "cli": {
+    "analytics": "860c3276-7df5-4ebd-94b8-a6fc4b32dd8e"
+  }
 }
