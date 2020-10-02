@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core'
 import { AppRoutingModule} from './app-routing.module'
 import { AppComponent } from './app.component'
 import { FormComponent } from './form/form.component'
+import { HttpClientModule } from "@angular/common/http";
+import { FormsModule } from "@angular/forms";
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatToolbarModule } from '@angular/material/toolbar'
@@ -14,6 +16,7 @@ import { HomeComponent } from './home/home.component'
 import { AboutComponent } from './about/about.component'
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ProgramsComponent } from './programs/programs.component';
+import { DummyComponent } from './dummy/dummy.component';
 
 
 @NgModule({
@@ -25,6 +28,7 @@ import { ProgramsComponent } from './programs/programs.component';
     AboutComponent,
     AboutusComponent,
     ProgramsComponent,
+    DummyComponent,
 
   ],
   imports: [
@@ -34,6 +38,8 @@ import { ProgramsComponent } from './programs/programs.component';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
+    HttpClientModule,
+    FormsModule
   ],
 
   providers: [],
