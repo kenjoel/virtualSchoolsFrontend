@@ -13,6 +13,12 @@ import { MatIconModule } from '@angular/material/icon'
 import { HomeComponent } from './home/home.component'
 import { AboutComponent } from './about/about.component'
 import { AboutusComponent } from './aboutus/aboutus.component';
+
+import { StudentsComponent } from './students/students.component';
+import { BooksComponent } from './students/books/books.component';
+import { BookdetailsComponent } from './students/bookdetails/bookdetails.component';
+import { NotesComponent } from './students/notes/notes.component';
+import { NotesdetailsComponent } from './students/notesdetails/notesdetails.component';
 import { ProgramsComponent } from './programs/programs.component';
 
 
@@ -24,7 +30,12 @@ import { ProgramsComponent } from './programs/programs.component';
     HomeComponent,
     AboutComponent,
     AboutusComponent,
-    ProgramsComponent,
+    StudentsComponent,
+    BooksComponent,
+    BookdetailsComponent,
+    NotesComponent,
+    NotesdetailsComponent,
+    ProgramsComponent
 
   ],
   imports: [
