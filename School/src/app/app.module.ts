@@ -14,6 +14,7 @@ import { HomeComponent } from './home/home.component'
 import { AboutComponent } from './about/about.component'
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ProgramsComponent } from './programs/programs.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { ProgramsComponent } from './programs/programs.component';
     AboutComponent,
     AboutusComponent,
     ProgramsComponent,
+    LoginComponent,
 
   ],
   imports: [
