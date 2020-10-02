@@ -7,7 +7,7 @@ import {Notes} from '../../notes';
 })
 export class NotesComponent implements OnInit {
   notes = [
-    new Notes('Ian Wilbert','Form Three','any')
+    new Notes('Ian Wilbert','Form Three','any text')
   ]
 
   @Output () emitNotes = new EventEmitter()
