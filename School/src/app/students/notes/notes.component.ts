@@ -13,6 +13,7 @@ export class NotesComponent implements OnInit {
   @Output () emitNotes = new EventEmitter()
 
 
+
   constructor() { }
 
   ngOnInit(): void {

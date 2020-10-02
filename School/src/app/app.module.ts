@@ -16,6 +16,8 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { StudentsComponent } from './students/students.component';
 import { BooksComponent } from './students/books/books.component';
 import { BookdetailsComponent } from './students/bookdetails/bookdetails.component';
+import { NotesComponent } from './students/notes/notes.component';
+import { NotesdetailsComponent } from './students/notesdetails/notesdetails.component';
 
 
 @NgModule({
@@ -29,6 +31,8 @@ import { BookdetailsComponent } from './students/bookdetails/bookdetails.compone
     StudentsComponent,
     BooksComponent,
     BookdetailsComponent,
+    NotesComponent,
+    NotesdetailsComponent,
 
   ],
   imports: [
