@@ -1,7 +1,5 @@
 
 form{
-
-    text-align: center;
     background-image: url(/assets/school.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,9 +7,11 @@ form{
     width: 100vw;
     padding-top: 5px;
     padding-bottom: 50px;
+    padding-left: 450px;
+
     color: white;
 }
-.form-group{
-    background-color: transparent;
+.form-control{
+    width: 500px;
 
 }
