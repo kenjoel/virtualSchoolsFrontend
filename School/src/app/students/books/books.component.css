@@ -8,6 +8,9 @@
 .form-control{
     width: 500px;
 }
-.card{
+.card-body{
     background-color: rgb(173, 120, 223);
+    width: 35rem;
+    border-radius: 0.5cm;
+    text-align: center;
 }
