@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component'
 import { BooksComponent } from './students/books/books.component'
 import { NotesComponent } from './students/notes/notes.component'
 import { StudentsComponent } from './students/students.component'
+import { ProgramsComponent } from './programs/programs.component'
 
 const routes: Routes = [
   {path: 'form', component: FormComponent},
@@ -15,8 +16,8 @@ const routes: Routes = [
   {path:'aboutus', component: AboutusComponent},
   {path:'students', component: StudentsComponent},
   {path:'books', component:BooksComponent},
-  {path:'notes', component:NotesComponent}
-
+  {path:'notes', component:NotesComponent},
+  {path:'programs', component: ProgramsComponent},
 
 ]
 
