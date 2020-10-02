@@ -9,8 +9,6 @@ import { School } from "../school";
 })
 export class FormComponent implements OnInit {
 
-  school = School[] = []
- 
   
   // submittedForm(){
   //   this.service.postSchool()
