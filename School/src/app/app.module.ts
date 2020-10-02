@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core'
 import { AppRoutingModule} from './app-routing.module'
 import { AppComponent } from './app.component'
 import { FormComponent } from './form/form.component'
+import { HttpClientModule } from "@angular/common/http";
+import { FormsModule } from "@angular/forms";
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatToolbarModule } from '@angular/material/toolbar'
@@ -19,6 +21,7 @@ import { BookdetailsComponent } from './students/bookdetails/bookdetails.compone
 import { NotesComponent } from './students/notes/notes.component';
 import { NotesdetailsComponent } from './students/notesdetails/notesdetails.component';
 import { ProgramsComponent } from './programs/programs.component';
+import { DummyComponent } from './dummy/dummy.component';
 
 
 @NgModule({
@@ -29,13 +32,15 @@ import { ProgramsComponent } from './programs/programs.component';
     HomeComponent,
     AboutComponent,
     AboutusComponent,
+    ProgramsComponent,
+    DummyComponent,
     StudentsComponent,
     BooksComponent,
     BookdetailsComponent,
     NotesComponent,
     NotesdetailsComponent,
     ProgramsComponent,
-
+    ProgramsComponent
 
   ],
   imports: [
@@ -45,6 +50,8 @@ import { ProgramsComponent } from './programs/programs.component';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
+    HttpClientModule,
+    FormsModule
   ],
 
   providers: [],
