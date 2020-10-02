@@ -18,6 +18,7 @@ import { BooksComponent } from './students/books/books.component';
 import { BookdetailsComponent } from './students/bookdetails/bookdetails.component';
 import { NotesComponent } from './students/notes/notes.component';
 import { NotesdetailsComponent } from './students/notesdetails/notesdetails.component';
+import { ProgramsComponent } from './programs/programs.component';
 
 
 @NgModule({
@@ -33,6 +34,8 @@ import { NotesdetailsComponent } from './students/notesdetails/notesdetails.comp
     BookdetailsComponent,
     NotesComponent,
     NotesdetailsComponent,
+    ProgramsComponent,
+
 
   ],
   imports: [
