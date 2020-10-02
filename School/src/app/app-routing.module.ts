@@ -4,14 +4,14 @@ import { AboutComponent } from './about/about.component'
 import { AboutusComponent } from './aboutus/aboutus.component'
 import { FormComponent } from './form/form.component'
 import { HomeComponent } from './home/home.component'
-import { ScheduleComponent } from './schedule/schedule.component'
+import { SignupComponent } from './signup/signup.component'
 
 const routes: Routes = [
   { path: 'form', component: FormComponent },
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'aboutus', component: AboutusComponent },
-  { path: 'schedule', component: ScheduleComponent },
+  { path: 'Sign Up', component: SignupComponent },
 ]
 
 @NgModule({
