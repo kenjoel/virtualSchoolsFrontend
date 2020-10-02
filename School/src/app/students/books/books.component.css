@@ -1,5 +1,5 @@
 .books{
-    background-image: url(../../../assets/shelf.jpg);
+    background-image: url(../../../assets/shelf.jpg),linear-gradient(rgba(74, 20, 136, 0.5), rgba(0, 0, 0, 0.5));
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;

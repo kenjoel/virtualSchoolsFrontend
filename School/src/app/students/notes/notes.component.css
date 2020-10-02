@@ -13,3 +13,10 @@
 .form-control{
     width: 720px;
 }
+.container{
+    background-color: rgba(131, 99, 161, 0.521);
+    text-align: center;
+    color: black;
+    padding: 40px;
+    font-size: x-large;
+}

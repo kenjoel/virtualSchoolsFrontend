@@ -22,6 +22,7 @@ const routes: Routes = [
   {path:"dummy", component:DummyComponent},
   {path:"", component:HomeComponent}
 
+
 ]
 
 @NgModule({

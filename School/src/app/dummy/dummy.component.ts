@@ -12,7 +12,7 @@ export class DummyComponent implements OnInit {
 
   getAllSchools(){
     this.service.getSchools().subscribe( obj => {
-      this.array = obj["items"]
+      this.array = obj[0]
       console.log(this.array)
     })
   }

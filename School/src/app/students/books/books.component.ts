@@ -23,7 +23,7 @@ export class BooksComponent implements OnInit {
      this.bookname=''
      this.description=''
      this.url=''
-     this.emitBook.emit(this.theWords)
+     this.books.push(this.theWords)
    }
 
   constructor() { }
