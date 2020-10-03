@@ -1,0 +1,45 @@
+I'm alive
+
+<div class="row">
+    <div class="col-4" *ngFor="let ar of array;let i = index;" >
+        <div class="container">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">{{ar.schoolname}}</h4>
+                    <li>{{ar.schoolwebsite}}</li>
+                    <li>{{ar.schoolemail}}</li>
+                    <li>{{ar.schoolphone}}</li>
+                    <li>{{ar.id}}</li>
+                    <button class="btn btn-info" type="button" class="btn btn-primary" data-toggle="modal" data-target="#sideModalTR">Info</button>
+                    <button class="btn btn-danger" (click)="deleteSchool(i)">Delete</button>
+
+                     <!-- Button trigger modal -->
+  <!-- To change the direction of the modal animation change .right class -->
+  <div class="modal fade right" id="sideModalTR" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <!-- Add class .modal-side and then add class .modal-top-right (or other classes from list above) to set a position to the modal -->
+  <div class="modal-dialog modal-side modal-bottom-right " role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title w-100" id="myModalLabel">Modal title</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          {{array[i].id}}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Side Modal Top Right --> 
+</div>           
+    </div>
+</div>
+</div>
+
+</div>

@@ -2,13 +2,13 @@ import { NgModule } from '@angular/core'
 import { Routes, RouterModule } from '@angular/router'
 import { AboutComponent } from './about/about.component'
 import { AboutusComponent } from './aboutus/aboutus.component'
-import { DummyComponent } from './dummy/dummy.component'
 import { FormComponent } from './form/form.component'
 import { HomeComponent } from './home/home.component'
 import { BooksComponent } from './students/books/books.component'
 import { NotesComponent } from './students/notes/notes.component'
 import { StudentsComponent } from './students/students.component'
 import { ProgramsComponent } from './programs/programs.component'
+import { SchoolsComponent } from "./schools/schools.component";
 
 const routes: Routes = [
   {path: 'form', component: FormComponent},
@@ -19,7 +19,7 @@ const routes: Routes = [
   {path:'books', component:BooksComponent},
   {path:'notes', component:NotesComponent},
   {path:'programs', component: ProgramsComponent},
-  {path:"dummy", component:DummyComponent},
+  {path: "schools", component:SchoolsComponent},
   {path:"", component:HomeComponent}
 
 

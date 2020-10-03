@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ComsumptionService } from "../comsumption.service";
-import { School } from "../school";
+import { Router } from "@angular/router";
+// import { School } from "../school";
 
 @Component({
   selector: 'app-form',
@@ -14,7 +15,15 @@ export class FormComponent implements OnInit {
   //   this.service.postSchool()
   // }
 
-  constructor(private service: ComsumptionService) { }
+  submitData(data){
+    this.service.postSchool(data).subscribe((data) => {console.log(data)})
+  }
+
+  navigate(){
+    this.router.navigate(["/schools"])
+  }
+
+  constructor(private service: ComsumptionService, private router:Router) { }
 
   ngOnInit(): void {
   }

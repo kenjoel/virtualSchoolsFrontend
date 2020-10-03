@@ -5,6 +5,7 @@ import { AppComponent } from './app.component'
 import { FormComponent } from './form/form.component'
 import { HttpClientModule } from "@angular/common/http";
 import { FormsModule } from "@angular/forms";
+import { RouterModule } from "@angular/router";
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatToolbarModule } from '@angular/material/toolbar'
@@ -21,7 +22,7 @@ import { BookdetailsComponent } from './students/bookdetails/bookdetails.compone
 import { NotesComponent } from './students/notes/notes.component';
 import { NotesdetailsComponent } from './students/notesdetails/notesdetails.component';
 import { ProgramsComponent } from './programs/programs.component';
-import { DummyComponent } from './dummy/dummy.component';
+import { SchoolsComponent } from './schools/schools.component';
 
 
 @NgModule({
@@ -33,14 +34,14 @@ import { DummyComponent } from './dummy/dummy.component';
     AboutComponent,
     AboutusComponent,
     ProgramsComponent,
-    DummyComponent,
     StudentsComponent,
     BooksComponent,
     BookdetailsComponent,
     NotesComponent,
     NotesdetailsComponent,
     ProgramsComponent,
-    ProgramsComponent
+    ProgramsComponent,
+    SchoolsComponent
 
   ],
   imports: [
@@ -51,7 +52,8 @@ import { DummyComponent } from './dummy/dummy.component';
     MatButtonModule,
     MatIconModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    RouterModule
   ],
 
   providers: [],
