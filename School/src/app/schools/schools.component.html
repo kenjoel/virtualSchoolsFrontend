@@ -10,10 +10,15 @@ I'm alive
                     <li>{{ar.schoolemail}}</li>
                     <li>{{ar.schoolphone}}</li>
                     <li>{{ar.id}}</li>
-                    <button class="btn btn-info" type="button" class="btn btn-primary" data-toggle="modal" data-target="#sideModalTR">Info</button>
                     <button class="btn btn-danger" (click)="deleteSchool(i)">Delete</button>
+                    <button class="btn btn-info" type="button" class="btn btn-primary" data-toggle="modal" data-target="#sideModalTR" (click)="getData(i)">Info</button>
 
-                     <!-- Button trigger modal -->
+
+</div>           
+    </div>
+</div>
+
+  <!-- Button trigger modal -->
   <!-- To change the direction of the modal animation change .right class -->
   <div class="modal fade right" id="sideModalTR" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
   aria-hidden="true">
@@ -27,19 +32,20 @@ I'm alive
         </button>
       </div>
       <div class="modal-body">
-          {{array[i].id}}
+          {{name}}
+          {{address}}
+          {{email}}
+          {{website}}
+          {{phone}}
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Add Teacher</button>
+        <button type="button" class="btn btn-primary">Add Student</button>
       </div>
     </div>
   </div>
 </div>
 <!-- Side Modal Top Right --> 
-</div>           
-    </div>
-</div>
 </div>
 
 </div>

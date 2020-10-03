@@ -9,11 +9,20 @@ import { DOCUMENT } from "@angular/common";
 export class SchoolsComponent implements OnInit {
 
   array:object;
+  name:string;
+  website:string;
+  phone:string;
+  address:string;
+  email:string;
 
   getData(index){
     var obj = this.array[index];
     index = obj.id
-    
+    this.name = obj.schoolname;
+    this.email = obj.schoolemail;
+    this.website = obj.schoolwebsite;
+    this.address = obj.schooladdress;
+    this.phone = obj.schoolphone;
   }
 
   deleteSchool(index){
