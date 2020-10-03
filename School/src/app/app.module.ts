@@ -3,8 +3,9 @@ import { NgModule } from '@angular/core'
 import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
 import { FormComponent } from './form/form.component'
-import { HttpClientModule } from '@angular/common/http'
-import { FormsModule } from '@angular/forms'
+import { HttpClientModule } from "@angular/common/http";
+import { FormsModule } from "@angular/forms";
+import { RouterModule } from "@angular/router";
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatToolbarModule } from '@angular/material/toolbar'
@@ -21,8 +22,8 @@ import { BooksComponent } from './students/books/books.component'
 import { BookdetailsComponent } from './students/bookdetails/bookdetails.component'
 import { NotesComponent } from './students/notes/notes.component'
 import { NotesdetailsComponent } from './students/notesdetails/notesdetails.component'
-import { ProgramsComponent } from './programs/programs.component'
-import { DummyComponent } from './dummy/dummy.component'
+import { ProgramsComponent } from './programs/programs.component';
+import { SchoolsComponent } from './schools/schools.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,6 @@ import { DummyComponent } from './dummy/dummy.component'
     AboutusComponent,
     SignupComponent,
     ProgramsComponent,
-    DummyComponent,
     StudentsComponent,
     BooksComponent,
     BookdetailsComponent,
@@ -42,6 +42,8 @@ import { DummyComponent } from './dummy/dummy.component'
     NotesdetailsComponent,
     ProgramsComponent,
     ProgramsComponent,
+    SchoolsComponent
+
   ],
   imports: [
     BrowserModule,
@@ -52,6 +54,7 @@ import { DummyComponent } from './dummy/dummy.component'
     MatIconModule,
     HttpClientModule,
     FormsModule,
+    RouterModule
   ],
 
   providers: [],

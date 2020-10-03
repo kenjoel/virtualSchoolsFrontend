@@ -17,8 +17,12 @@ export class ComsumptionService {
     return this.http.get("https://finaldeployment.herokuapp.com/students");
   }
 
-  postSchool(req, res){
-    return this.http.post("https://finaldeployment.herokuapp.com/schools/new", req.body)
+  postSchool(output){
+    return this.http.post("https://finaldeployment.herokuapp.com/schools/new", output)
+  }
+
+  deleteSchool(id){
+    return this.http.get("https://finaldeployment.herokuapp.com/delete/schools/" + id)
   }
 
 }
