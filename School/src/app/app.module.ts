@@ -43,7 +43,6 @@ import { SchoolsComponent } from './schools/schools.component';
     ProgramsComponent,
     ProgramsComponent,
     SchoolsComponent
-
   ],
   imports: [
     BrowserModule,
