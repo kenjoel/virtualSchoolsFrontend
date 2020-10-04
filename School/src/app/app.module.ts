@@ -24,6 +24,8 @@ import { NotesComponent } from './students/notes/notes.component'
 import { NotesdetailsComponent } from './students/notesdetails/notesdetails.component'
 import { ProgramsComponent } from './programs/programs.component';
 import { SchoolsComponent } from './schools/schools.component';
+import { AddStudentsFormComponent } from './add-students-form/add-students-form.component';
+import { AddTeachersFormComponent } from './add-teachers-form/add-teachers-form.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import { SchoolsComponent } from './schools/schools.component';
     NotesdetailsComponent,
     ProgramsComponent,
     ProgramsComponent,
-    SchoolsComponent
+    SchoolsComponent,
+    AddStudentsFormComponent,
+    AddTeachersFormComponent
   ],
   imports: [
     BrowserModule,
