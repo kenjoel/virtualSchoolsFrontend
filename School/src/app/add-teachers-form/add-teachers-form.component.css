@@ -1,0 +1,44 @@
+.headtext {
+    text-align: center;
+}
+
+
+.add-teachers-submit {
+    background-color: blueviolet;
+}
+
+.form-group {
+    text-align: center;
+}
+
+.input-group {
+    text-align: center;
+}
+
+button:hover {
+    background-color: rgb(153, 58, 241);
+    color: white;
+}
+
+.well{
+    background-color: rgb(191, 133, 245);
+    opacity: .8;
+    padding: 10%;
+    border-radius: 10px;
+}
+
+.back{
+    height: 93%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-image: linear-gradient(rgba(74, 20, 136, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1153&q=80");
+
+    /* background-color: red; */
+}
+
+button:hover{
+    color: white;
+}
+
